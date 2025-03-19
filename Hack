@@ -104,7 +104,7 @@
                 const boxes = document.querySelectorAll("[class*='answersHolder'] > div > div");
 
                 if (boxes.length === 4) {
-                    const colors = ["rgb(253, 163, 30)", "rgb(51, 120, 155)", "rgb(0, 207, 119)", "rgb(255, 70, 43)"];
+                    const colors = ["rgb(253, 163, 30)", "rgb(51, 120, 255)", "rgb(0, 207, 119)", "rgb(255, 70, 43)"];
 
                     boxes.forEach((box, index) => {
                         box.style.backgroundColor = colors[index];
@@ -127,3 +127,4 @@
 
     cheat2(); // Call cheat2 here
 })();
+
